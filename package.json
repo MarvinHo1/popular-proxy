@@ -1,0 +1,25 @@
+{
+  "name": "popular-proxy",
+  "version": "1.0.0",
+  "description": "proxy for popular dishes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinHo1/popular-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvinHo1/popular-proxy/issues"
+  },
+  "homepage": "https://github.com/MarvinHo1/popular-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0",
+    "path": "^0.12.7"
+  }
+}
